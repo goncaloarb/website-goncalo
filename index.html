@@ -1,0 +1,189 @@
+<!doctypehtml>
+<html>
+<head>
+  <title>Vídeo  Design</title>
+  <title>Website</title>
+  <meta name="description" content="Vídeo Design">
+  <meta name="keywords" content="Video, Design, After effects, Edition">
+  <meta name="author" content="Gonçalo Brás">
+  <meta http-equiv="refresh" content="30">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+
+<body>
+  <header>
+    <a id="menu_icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/>
+</svg>
+</a>
+    <div id="drawer">
+<nav>
+  <a href="#unordered"> Prémios de Melhor Curta Metragem</a>
+  <br />
+  <a href="#ordered"> Os melhores editores de vídeo</a>
+  <br />
+  <a href="#color"> Plataformas de Divulgação</a>
+  <br />
+  <a href="#video"> Vídeo</a>
+</nav>
+</div>
+  <h1>Vídeo Design</h1>
+  <p> Vídeo Design é um metodo de criação de videos, na qual predomina o uso de motion graphics, e é como o nome diz, gráfico em movimento no espaço da tela e no tempo. </p>
+</header>
+
+  <nav id="tabletPC" class="col-3">
+
+  <a href="#unordered"> Prémios de Melhor Curta Metragem</a>
+  <br />
+  <a href="#ordered"> Os melhores editores de vídeo</a>
+  <br />
+ <a href="#color"> Plataformas de Divulgação</a>
+ <br />
+ <a href="#video"> Vídeo</a>
+</nav>
+<div id="container" class="col-9">
+
+  <section class="slideshow-container">
+<h2>O que podes encontrar?</h2>
+<article class="mySlides" class="fade">
+<figure>
+<img src="images/image4.jpg">
+<figcaption>Cena de um filme editada no Adobe Premiere.</figcaption>
+</figure>
+</article>
+<article class="mySlides" class="fade">
+<figure>
+<img src="images/image5.jpg">
+<figcaption>Página do premiere.</figcaption>
+</figure>
+</article>
+
+<article class="mySlides" class="fade">
+<figure>
+<img src="images/image6.jpg">
+<figcaption>Podes encontrar diversas informações na nossa página.</figcaption>
+</figure>
+</article>
+<article class="mySlides" class="fade">
+<figure>
+<img src="images/image7.jpg">
+<figcaption>Envia-nos a tua mensagem.</figcaption>
+</figure>
+</article>
+
+<div class="dotpoints">
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+</section>
+
+
+  <section>
+ <a name="unordered">
+  <h2>Prémios de Melhor Cuta Metragem</h2>
+  <i>Nesta pequena lista podes ver quais foram as melhores curtas metrtagens.</i>
+  <ul>
+    <li>The Neighbors' Window (2020)</li>
+    <li>Skin (2019)</li>
+    <li>The Silent Child (2018)</li>
+    <li>Mindenki (2017)</li>
+    <li>Stutterer (2016)</li>
+  </ul>
+</section>
+
+    <section>
+  <a name="ordered">
+  <h2> Os melhores editores de vídeo</h2>
+  <i> Com isto podes escolher o melhor editor para fazeres os teus trabalhos. </i>
+  <ol><li><u>Adobe Premiere </u></li>
+    <li><u> Adobe After Effects</u></li>
+    <li><u> Sony Vegas</u></li>
+  </ol>
+</section>
+<section>
+  <a name="color">
+  <h2>Plataformas de Divulgação</h2>
+  <p> Estas são algumas das plataformas onde podes divulgar os teus videos, e torna-los publicos para que outros possam ver.</p>
+<img src= "images/image1.jpg" width="600" height="auto">
+<img src= "images/image2.jpg" width="600" height="auto">
+<img src= "images/image3.jpg" width="600" height="auto">
+</section>
+
+    <section>
+      <a name="video">
+        <h2>Video</h2>
+        <p> <p> Trabalho realizado por Gonçalo Brás nas aulas de Video Design. </p></p>
+  <iframe width="560" height="900" src="https://www.youtube.com/embed/quDoPkyhCbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</section>
+<section>
+  <table border=“1px”>
+  <th colspan="3"> Vídeo</th>
+  <tr>
+    <td>Curtas Metragens</td><td>Longas Metragens</td><td>Autores</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Os inocentes</td>
+    <td rowspan="3">Tudo o que não é real, e intemporal </td>
+    <td>Rui Carvalho</td>
+  </tr>
+  <tr>
+    <td>Antonio Cerveira</td>
+  </tr>
+  <tr>
+    <td>João Nunes e Carlos Boto</td>
+  </tr>
+  <tr>
+    <td>Atira-te para o Chão</td> <td>Ricardo Antunes</td>
+  </tr>
+</table>
+</section>
+</div>
+  <aside class="col-2">
+    <h3>Aside</h3>
+    <p>Precisas de ajuda para editares os teus videos?</p>
+  </aside>
+  <footer>
+    <h2>Desenvolvido por Gonçalo Brás</h2>
+  </footer>
+  <script>
+
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+let i = null;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex> slides.length) {slideIndex = 1}
+
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+let menu_icon = document.querySelector('#menu_icon');
+let container = document.querySelector("#container");
+let drawer = document.querySelector('#drawer');
+menu_icon.addEventListener('click', function (e) {
+drawer.classList.toggle('open');
+e.stopPropagation();
+});
+container.addEventListener('click', function () {
+drawer.classList.remove('open');
+});
+</script>
+</body>
+<!---Content ends here -->
+</html>
